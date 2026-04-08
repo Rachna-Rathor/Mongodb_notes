@@ -22,5 +22,5 @@ const userSchema=new mongoose.Schema({
 
 const User=mongoose.model("User",userSchema)
 
-User.insertOne({name:"Ruchi",age:12});
+User.insertOne({name:"Ruchi",age:12,parentId:"69d629ede14096bd8a1a3cbb"});
 User.findOne({Name:"Rachna"})
